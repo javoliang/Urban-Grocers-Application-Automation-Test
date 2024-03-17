@@ -30,6 +30,49 @@ Ejecución de las Pruebas en la Terminal:
 Para ejecutar las pruebas, utiliza el comando siguiente en la terminal:
 pytest /create_kit_name_kit_test.py
 
+De los 9 comprobaciones obtuvieron 5 aprobados y 4 fallidos con los siguientes Resultados:
+
+collecting ... collected 9 items
+
+create_kit_name_kit_test.py::test_kit_creation_1 PASSED                  [ 11%]
+create_kit_name_kit_test.py::test_kit_creation_2 PASSED                  [ 22%]
+create_kit_name_kit_test.py::test_kit_creation_3 FAILED                  [ 33%]
+create_kit_name_kit_test.py:22 (test_kit_creation_3)
+201 != 400
+
+Expected :400
+Actual   :201
+
+create_kit_name_kit_test.py:27:
+
+create_kit_name_kit_test.py::test_kit_creation_4 FAILED                  [ 44%]
+create_kit_name_kit_test.py:28 (test_kit_creation_4)
+201 != 400
+
+Expected :400
+Actual   :201
+
+create_kit_name_kit_test.py:33:
+
+create_kit_name_kit_test.py::test_kit_creation_5 PASSED                  [ 55%]
+create_kit_name_kit_test.py::test_kit_creation_6 PASSED                  [ 66%]
+create_kit_name_kit_test.py::test_kit_creation_7 PASSED                  [ 77%]
+create_kit_name_kit_test.py::test_kit_creation_8 FAILED                  [ 88%]
+create_kit_name_kit_test.py:52 (test_kit_creation_8)
+500 != 400
+
+Expected :400
+Actual   :500
+
+create_kit_name_kit_test.py:57:
+
+create_kit_name_kit_test.py::test_kit_creation_9 FAILED                  [100%]
+create_kit_name_kit_test.py:58 (test_kit_creation_9)
+201 != 400
+
+Expected :400
+Actual   :201
+
 Nombre del Autor y Sprint del Proyecto
 Autor: Liang Yung Hsin
 Sprint del Proyecto: Proyecto 6
