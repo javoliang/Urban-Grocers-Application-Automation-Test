@@ -11,8 +11,6 @@ def post_new_user(body):
     )
 
 response = post_new_user(data.user_body)
-print(response.status_code)
-print(response.json())
 
 def auth_token():
     user = post_new_user(data.user_body)
@@ -35,5 +33,3 @@ def post_new_client_kit(kit_body_key):
 )
 
 response = post_new_client_kit(data.kit_bodies["one_character"])
-print(response.status_code)
-print(response.json())
